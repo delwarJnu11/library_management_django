@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-(!fbcc!%3m%(0ru0!$!7b(kmjq-v^3w#g#ci3h9p7sk+ldr$s6
 DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ['https://bookshelf-rvra.onrender.com/','https://*.127.0.0.1']
 
 # Application definition
 
